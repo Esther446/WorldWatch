@@ -1,5 +1,3 @@
-// js/api.js
-
 export async function fetchWeather(city) {
   const apiKey = config.OPENWEATHER_API_KEY;
   const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&units=metric&appid=${apiKey}`;
