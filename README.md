@@ -38,5 +38,5 @@ Credit to OpenWeatherMap for providing weather data.
 
 ```js
 const config = {
-  OPENWEATHER_API_KEY: "YOUR_API_KEY_HERE"
+  OPENWEATHER_API_KEY: "cdb21852d8c9a73b88069e4253871d2f"
 };

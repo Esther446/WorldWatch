@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require('dotenv').config();
 const express = require('express');
 const axios = require('axios');
@@ -39,3 +40,9 @@ app.get('/weather', async (req, res) => {
 app.listen(PORT, () => {
   console.log(`🌍 Server running at http://localhost:${PORT}`);
 });
+=======
+// config.js
+const config = {
+  OPENWEATHER_API_KEY: "cdb21852d8c9a73b88069e4253871d2f"
+};
+>>>>>>> ec65b54bd39bee3a6b82c622102b837667d768ce
